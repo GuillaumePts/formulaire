@@ -138,6 +138,7 @@ if(!empty($_POST['submitted'])) {
         <span class="error"><?php if(!empty($errors['email'])) { echo $errors['email']; } ?></span>
           
         <input id="a" type="submit" name="submitted" value="GO">
+      
     </form>
 
     <script>
