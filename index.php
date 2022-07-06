@@ -64,7 +64,7 @@ if(!empty($_POST['submitted'])) {
         <ul>
             <li><a href="http://localhost/formulaire/list_users.php">Utilisateur</a></li>
             <li><a href="http://localhost/formulaire/">Accueil</a></li>
-            <li><a href="http://localhost/formulaire/supp_user.php?id=1">404</a></li>
+            <li><a href="localhost/formulaire/404.php">404</a></li>
         </ul>
     </nav>
 </header>

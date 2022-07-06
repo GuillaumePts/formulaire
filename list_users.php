@@ -121,8 +121,7 @@ $users = $query->fetchAll();
         <td><?=$user['prenom']?></td>
         <td><?=$user['email']?></td>
         <td><a href="edit_user.php?id=<?=$user['id']?>">Editer</a></td>
-        <td><a href="supp_user.php?id=<?=$user['id']?>" 
-            >Supprimer</a></td>
+        <td><a href="supp_user.php?id=<?=$user['id']?>">Supprimer</a></td>
             
     </tr>
    
