@@ -1,6 +1,8 @@
 <?php
+
 require ('./include/function.php');
 require ('./include/pdo.php');
+
 
 
 
@@ -46,82 +48,27 @@ if(!empty($_POST['submitted'])) {
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-       
-*{padding: 0; margin:0;-webkit-box-sizing: border-box;box-sizing: border-box;font-family: monospace;font-size: 1rem;color:#666; text-shadow: 5px 5px 10px #202020,
-      -5px -5px 10px #464646; text-align: center; font-weight: 600;}
-        body{
-            min-height: 100vh;
-            background-color: #333;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align:center ;
-                -ms-flex-align:center ;
-                    align-items:center ;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-        }
-        form{
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-            width: 50%;
-            
-        }
-
-      
-
-        input{
-      margin-top: 10px;
-      border: none;
-      outline: none;
-      border-radius: 20px;
-      height: 30px;
-      -webkit-box-shadow: 5px 5px 10px #202020,
-      -5px -5px 10px #464646;
-              box-shadow: 5px 5px 10px #202020,
-      -5px -5px 10px #464646;
-      background-color: #333;
-      cursor: pointer;
-        }
-        label{
-      margin-top: 10px;
-        }
-
-        #a{
-            margin-top: 30px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
-
-        span{
-            color: #a70101;;
-        }
-
-    </style>
+ 
 </head>
 <body>
+
+<header>
+    <h1>Formulaire</h1>
+    <nav>
+        <ul>
+            <li><a href="http://localhost/formulaire/list_users.php">Utilisateur</a></li>
+            <li><a href="http://localhost/formulaire/">Accueil</a></li>
+            <li><a href="http://localhost/formulaire/supp_user.php?id=1">404</a></li>
+        </ul>
+    </nav>
+</header>
+
     <form action="" method="POST">
         
         <label for="nom">Nom </label>
